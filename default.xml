@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="origin"
+  <remote name="master"
         fetch="https://github.com/TeamFahQ/" />    
 
   <remote name="GummyMutt"
