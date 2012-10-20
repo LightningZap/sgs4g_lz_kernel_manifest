@@ -18,7 +18,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-9.0.0" />
 <project path="build" name="android_build" revision="ics" remote="GummyMutt">
 <copyfile src="core/root.mk" dest="Makefile" />
-<project path="kernel/samsung/galaxys3gmtd" name="sgs4g_lz_kernel" revision="ics" remote="origin">
+<project path="kernel/samsung/galaxys3gmtd" name="sgs4g_lz_kernel" revision="origin" remote="master">
 <project path="tools" name="sgs4g_lz_tools" revision="origin" remote="master">
 
 </manifest>
