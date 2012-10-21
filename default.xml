@@ -11,7 +11,7 @@
         fetch="https://github.com/TeamFahQ/" />
       
   <remote name="cm"
-        fetch="git://github.com/CyanogenMod/" />
+        fetch="https://github.com/CyanogenMod/" />
 
   <remote name="github"
         fetch="git://github.com/" />
