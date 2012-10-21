@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aosp"
+        fetch="https://android.googlesource.com/" />
+
+  <remote name="origin"
+        fetch="https://github.com/TeamFahQ/" />    
+
+  <remote name="GummyMutt"
+        fetch="https://github.com/TeamFahQ/" />
+      
+  <remote name="cm"
+        fetch="git://github.com/CyanogenMod/" />
+
+  <remote name="github"
+        fetch="git://github.com/" />
+
+  <default revision="refs/tags/android-4.0.4_r1.1"
+        remote="aosp"
+        sync-j="4" />
+
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-9.0.0" />
+<project path="build" name="android_build" revision="ics" remote="GummyMutt">
+<copyfile src="core/root.mk" dest="Makefile" />
+<project path="kernel/samsung/galaxys3gmtd" name="sgs4g_lz_kernel" revision="ics" remote="origin">
+<project path="tools" name="sgs4g_lz_tools" revision="master" remote="origin">
+
+</manifest>
